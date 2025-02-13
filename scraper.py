@@ -12,7 +12,7 @@ from dateutil.relativedelta import relativedelta
 import json
 import re
 
-# ======== CONFIGURATION ========
+# ======== CONFIGURATION =======
 START_YEAR = 2000
 END_YEAR = 2002
 MAX_WORKERS = 20  # Increased parallelism
