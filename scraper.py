@@ -128,7 +128,7 @@ def main():
             scraper.save_batch(batch_data)
             pbar.update(1)
             
-            # Memory management
+            # Memory management.
             del batch_data
             if MAX_WORKERS > 15:
                 time.sleep(1)  # Prevent OOM
